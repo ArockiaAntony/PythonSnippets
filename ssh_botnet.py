@@ -29,9 +29,9 @@ def add_client(host, user, pwd):
 	client = Client(host, user, pwd)
 	botNet.append(client)
 botNet = []
-add_client('172.25.110.113', 'root', 'root123')
-add_client('172.25.110.112', 'root', 'root123')
-add_client('172.25.110.227', 'root', 'redhat123')
+add_client('IP1', 'root', 'pwd')
+add_client('IP2', 'root', 'pwd')
+add_client('IP3', 'root', 'pwd')
 
 botnet_command('uname -v')
 botnet_command('cat /etc/shadow | grep root')	
